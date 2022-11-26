@@ -1,0 +1,135 @@
+.tittle-contact-us {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 80px;
+}
+
+.question-ask {
+    text-align: center;
+    font-size: large;
+}
+
+.horozontal-line-under-contact-us{
+    width: 60%;
+    color: orangered;
+    height: 2px;
+    margin: auto;
+}
+
+.contact-form {
+    width: 70%;
+    height: fit-content;
+    margin-top: 1%;
+    margin: auto;
+}
+.contact-form-tittle {
+    display: grid;
+    grid-template-columns: repeat(3 , 35%);
+    
+}
+
+
+.icon-form-contant-us {
+    text-align: center;
+    color: #0096FF !important;
+    display: block !important;
+    margin: auto !important;
+}
+
+.contact-form-tittle-in-form{
+    margin: auto;
+    color: green;
+    font-size: x-large;
+    text-align: center;
+}
+
+.contact-form-details {
+    width: fit-content;
+    margin: auto;
+    color: black;
+    font-size: large;
+}
+
+
+
+.contact-us-form-elements {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    width: 100%;
+    height: fit-content;
+    box-shadow: 5px 5px whitesmoke ;
+
+}
+
+.contact-image-element {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+
+.user-inputs-contacts {
+    margin-top: 5px !important;
+    width: 118% !important;
+}
+
+.user-text-area {
+    height: 100px !important ;
+}
+
+
+.submit-btn  {
+    display: block;
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    color: whitesmoke;
+    border: none;
+    background-color: #39AEA9; 
+    
+}
+
+.err-message-validation , .err-message-validation-password  {
+    margin-top: 0px;
+    color: red;
+    text-align: left;
+    display: none;
+}
+
+
+.our-location-tittle {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 10px;
+}
+
+.our-loction-tittle-underline {
+    width : 60% ;
+    height: 2px;
+    color: orangered;
+    margin: auto;
+
+}
+
+.main-branch-paraghrah {
+    text-align: center;
+    font-size: x-large;
+}
+
+.wingo-location {
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+}
+
+.google-map-location {
+    border: none;
+    width: 100%;
+    height: 480px;
+}
+

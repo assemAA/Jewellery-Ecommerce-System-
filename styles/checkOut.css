@@ -1,0 +1,80 @@
+.shooping-cart-tittle {
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    margin-top: 2%;
+   
+}
+
+.shooping-cart-tittle h1 {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.shooping-cart-tittle hr {
+    background-color: rgb(14, 241, 90);
+    height: 2%;
+}
+
+.shooping-cart-items {
+    column-gap: 20px;
+}
+
+.check-out-table {
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.shooping-cart-items {
+    width: 100%;
+    margin: auto;
+    
+}
+
+.shooping-cart-body-table th {
+    text-align: center;
+}
+.shooping-cart-body-table td {
+    width: 19%;
+    height: 20%;
+    border-bottom: 2px solid black;
+    
+}
+
+.item-photo{
+    width: 60%;
+    height: 60%;
+    
+}
+
+
+.item-photo-name {
+    padding-left: 3%;
+}
+
+
+.btn-success , .btn-warning{
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer-table td {
+    font-size: larger;
+}
+
+.shoopingActions {
+    margin-top: 20px;
+}
+.btn-Check-Out {
+    background-color: #379237;
+    display: block;
+    width: 20%;
+    height: 60px;
+    margin: auto;
+    color: whitesmoke;
+    font-size: xx-large;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}

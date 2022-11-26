@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+.nav-bar {
+    width: 100%;
+    /* background-color: #f5884047; */
+    display: flex;
+    justify-content: center;
+    background-color: #404258;
+}
+
+.home-link , .products-link , .about-link , .contact-link {
+    font-size: x-large;
+    text-decoration: none;
+    margin-left: 40px;
+    color: whitesmoke;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.underline-link {
+    text-decoration: pink underline 5px ;
+    color: whitesmoke;
+}
+
+.home-link:hover , .products-link:hover , .about-link:hover, .contact-link:hover {
+    text-decoration: pink underline 5px;
+    color: whitesmoke;
+}

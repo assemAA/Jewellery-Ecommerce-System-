@@ -1,0 +1,94 @@
+.wingo-stores {
+    
+}
+
+.stories-tittle-love {
+
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.wingo-love-story {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin-bottom: 70px;
+}
+
+.underline-stories-title-love {
+    color: orange;
+    width: 40%;
+    height: 2px;
+    margin: auto;
+}
+
+.wingo-love-story-text {
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.horozontal-lines-with-icon {
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.horozontal-lines-with-icon hr {
+    width: 30%;
+    height: 2px;
+    color: orange;
+    display: inline-block;
+}
+
+.horozontal-lines-with-icon span {
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 3px;
+    color: orange;
+}
+
+
+.love-story-animation-containner{
+    height: fit-content;
+    margin-bottom: 30px;
+}
+.love-story-animation-gif {
+
+    width: 50%;
+    height: fit-content;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.love-story-animation-description {
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.love-story-animation-description h1 {
+    text-align: center;
+    margin: auto;
+    font-family: 'EB Garamond', serif;
+
+}
+
+.love-story-animation-description p {
+
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+}

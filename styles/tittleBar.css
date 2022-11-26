@@ -1,0 +1,60 @@
+*{
+    margin: 0 ;
+}
+body {
+    background-color: #FFFFFF;
+    
+}
+
+.tittle-and-navigator {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #F9F9F9;
+}
+.tittle {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.shop-name {
+    display: inline-block;
+    width: 64%;
+    text-align: end;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.shop-icons {
+    display: inline-block;
+    width: 35%;
+}
+.shop-icon {
+    display: inline-block;
+    margin-left: 85%;
+    cursor: pointer !important;
+    padding: 5px;
+
+}
+.shop-icon:hover {
+    background-color: #6c757d14;
+    opacity: 1;
+    padding: 5px;
+    border-width: 5px;
+    border-radius: 50%;
+}
+
+.shooping-numbers{
+    background-color: orange;
+    color: white;
+    padding: 1px;
+    border-width: 2px;
+    border-radius: 50%;
+    border-color: orange;
+    border-style: solid;
+    position: relative;
+    right: 15px;
+    
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wingo Jewellary Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+
+    <!--social media icons css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--social media icons css -->
+
+
+    
+    <!-- CSS Files  only -->
+    <link rel="stylesheet" href="./styles/tittleBar.css" />
+    <link rel="stylesheet" href="./styles/navBar.css" />
+    <link rel="stylesheet" href="./styles/productCategories.css" />
+    <link rel="stylesheet" href="./styles/productsItems.css">
+    <link rel="stylesheet" href="./styles/filterproducts.css">
+    <link rel="stylesheet" href="./styles/pagesfooter.css">
+    <link rel="stylesheet" href="./styles/categoriesTabs.css">
+    
+  </head>
+  <body>
+      <!--Tittle and Navigator Bar -->
+    <div class="tittle-and-navigator bg-light text-dark">
+      <!--TiitleBar-->
+      <div class="tiitle">
+        <div class="shop-name">
+          <h2>
+            Wingo
+            <span>
+              <img src="./images/tittleBar/wingo-icon.png" alt="wingo-logo"
+            /></span>
+            Jewellary Store
+          </h2>
+        </div>
+
+        <div class="shop-icons">
+          <span class="material-symbols-outlined shop-icon" id="shooping-icon-check-out">
+            shopping_cart
+          </span>
+          <span class="shooping-numbers" id="counter-shooping-bag-in-tittle-bar"> 0 </span>
+        </div>
+      </div>
+
+      <!--TittleBar-->
+      <!--NavBar-->
+      <div class="nav-bar .bg-light.bg-gradient">
+        <a href="/index.html" class="home-link" id="home-link">Home</a>
+        <a href="/index.html#products-catogries" class="products-link" id="products-link"
+          >Products</a
+        >
+        <a href="/aboutUs.html" class="about-link" id="about-link">About</a>
+        <a href="/contactus.html" class="contact-link" id="contact-link">Contact Us</a>
+      </div>
+      <!--Navbar-->
+    
+    </div>
+
+      <!--Some Spaces -->
+      <br>
+      <br>
+      <br>
+      <!--some Spaces-->
+
+      <div class="catergories-tabs">
+        <div class="tab">
+          <button class="tablinks" name = "rings" onclick="goToCategory(this)">Rings</button>
+          <button class="tablinks" name = "bracelets" onclick="goToCategory(this)">Bracelets</button>
+          <button class="tablinks" name = "all" onclick="goToCategory(this)">All Products</button>
+          <button class="tablinks" name = "necklaces" onclick="goToCategory(this)">Necklaces</button>
+          <button class="tablinks" name = "earrings" onclick="goToCategory(this)">Earrings</button>
+        </div>
+      </div>
+      <!--Filter Box -->
+      <div class="fiter-box" id="filter-box">
+
+        
+        <div class="product-catogry-option-box">
+
+          <!-- Select by name -->
+            <!-- <select class="form-select" aria-label="Default select example" id="Products-catogry-options-box">
+              <option selected value="none">Select Product Cateogry </option>
+              <option value="rings">Rings</option>
+              <option value="bracelets">Bracelets</option>
+              <option value="necklaces">Necklaces</option>
+              <option value="earrings">Earrings</option>
+              <option value="all">All Products</option>
+            </select> -->
+          <!-- Select by name -->
+
+        </div>
+
+        <br>
+
+        <div class="max-price">
+          <div class="max-price-slider-range-container" id="max-price-slider-range-container">
+            <p id = "max-price-slider-value-paragraph">  </p>
+            <input type="range" min="1" max="10000000" value="10000000" class="max-price-slider-range" id="max-price-slider-range">
+          </div>
+        </div>
+
+        
+
+      </div>
+
+      <!--Filter Box -->
+
+      <!--Products -->
+      <div class="products-items bg-light text-dark" id="products-items">
+
+        
+      </div>
+      <!--Products-->
+
+      <!--Slider Pages -->
+
+      <div class="slider-products-index">
+        <span
+            class="material-symbols-outlined"
+            id="slider-arrow-back-products-items-index"
+          >
+            arrow_back_ios
+          </span>
+          <span
+           id="products-item-index-page-products-items-index"
+           class="products-item-index-page">
+            1
+          </span>
+          <span
+            class="material-symbols-outlined "
+            id="slider-arrow-next-products-item-index"
+          >
+            arrow_forward_ios
+          </span>
+      </div>
+
+      <!--Slider Pages -->
+
+
+      
+        <!--pages Footer -->
+        <div class="footer">
+          <h5 class="footer-tittle">Wingo Jewellary Store  </h3>
+          <hr>
+
+          <div class="footer-content">
+            <div class="contact-us-footer">
+              <h5> Contact us </h5>
+              <hr>
+                  <div class="contact-us-footer-location">
+                        <span class="material-symbols-outlined">
+                          location_on
+                        </span>
+                        <span>El Tessen , The 5th Settlement ,Egypt</span>
+                  </div>
+                  <div class="contact-us-phone-number-footer">
+                      <span class="material-symbols-outlined">
+                        phone_in_talk
+                      </span>
+                      <span> 01104549637</span>
+                  </div>
+                  <div class="contact-us-mail-footer">
+                    <span class="material-symbols-outlined">
+                      mail
+                    </span>
+                    <span> wingo@gmail.com</span>
+                  </div>
+                  <br>
+            </div>
+
+            <div class="social-platforms-footer">
+                  <h5> Follow Us </h5>
+                  <hr>
+                  <div class="social-platforms-links-in-footer">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                  </div>
+                  
+            </div>
+              
+
+
+            </div>
+          </div>
+        </div>
+      <!--pages Footer-->
+
+     
+
+
+    
+    <script src="./scripts/localStorage/localStorageSettings.js"></script>
+    <script type="module" src="./scripts/Products/products.js"></script>
+    <script type="module" src="./scripts/Products/productsDataBase/productDataBase.js"></script>
+    <script type="module" src="./scripts/Products/productsFilter.js"></script>
+    <script type="module" src="./scripts/TittleBar/tittleBar.js"></script>
+    <script src="./scripts/Products/productsTabs.js"></script>
+  </body>
+</html>

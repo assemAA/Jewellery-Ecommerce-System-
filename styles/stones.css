@@ -1,0 +1,35 @@
+.stones-tittle {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.wingo-stones p {
+
+    width: 40%;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wingo-stones-container {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4 , auto);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+
